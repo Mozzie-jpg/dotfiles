@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update
-sudo apt install tmux zsh python3 git curl wget vim
+sudo apt install tmux zsh python3 git curl wget nvim -y
 
 # Install ohmyzsh
 
