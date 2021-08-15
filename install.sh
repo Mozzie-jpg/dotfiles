@@ -18,6 +18,11 @@ cp ~/.dotfiles/tmux/tmux.conf ~/.tmux.conf
 # Install vim
 
 git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+
+cp ~/.nvimrc ~/.nvimrc.bak
+cp ~/.dotfiles/vim/vimrc ~/.nvimrc
 cp ~/.vimrc ~/.vimrc.bak
 cp ~/.dotfiles/vim/vimrc ~/.vimrc
+
+cp ~/.dotfiles/vim/monokai.vim /usr/share/nvim/runtime/colors/monokai.vim
 
